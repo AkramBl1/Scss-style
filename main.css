@@ -168,17 +168,223 @@
   border-right-color: red;
 }
 
-.ad-flacon-uaa9shy {
+.ad-flacon-usvw261 {
   font-size: 20px;
   background-color: url("images/flacon.png");
   right: 0;
 }
 
-.ad-uaa9sib {
+.ad-usvw270 {
   font-weight: bold;
 }
 
 /* In css file */
 /*! In css file and compressed file */
 /* Style for flacon*/
+ul.links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.circle-100 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+
+.center-circle {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.class-1 {
+  font-size: 11px;
+}
+
+.class-2 {
+  font-size: 12px;
+}
+
+.class-3 {
+  font-size: 13px;
+}
+
+.class-4 {
+  font-size: 14px;
+}
+
+.class-5 {
+  font-size: 15px;
+}
+
+.class-6 {
+  font-size: 16px;
+}
+
+.class-7 {
+  font-size: 17px;
+}
+
+.class-8 {
+  font-size: 18px;
+}
+
+.class-9 {
+  font-size: 19px;
+}
+
+.class-10 {
+  font-size: 20px;
+}
+
+.circle-100 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-200 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-300 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-400 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-500 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-600 {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-700 {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-800 {
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-900 {
+  width: 900px;
+  height: 900px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.circle-1000 {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.red-theme .product {
+  background-color: white;
+  border-bottom: 2px solid red;
+}
+.red-theme .product .title {
+  color: red;
+  font-weight: bold;
+}
+
+.green-theme .product {
+  background-color: white;
+  border-bottom: 2px solid green;
+}
+.green-theme .product .title {
+  color: green;
+  font-weight: bold;
+}
+
+.blue-theme .product {
+  background-color: white;
+  border-bottom: 2px solid blue;
+}
+.blue-theme .product .title {
+  color: blue;
+  font-weight: bold;
+}
+
+.orange-theme .product {
+  background-color: white;
+  border-bottom: 2px solid orange;
+}
+.orange-theme .product .title {
+  color: orange;
+  font-weight: bold;
+}
+
+.facebook {
+  background-color: blue;
+  color: white;
+}
+.facebook::before {
+  content: "facebook";
+}
+
+.youtube {
+  background-color: red;
+  color: white;
+}
+.youtube::before {
+  content: "youtube";
+}
+
+.github {
+  background-color: black;
+  color: white;
+}
+.github::before {
+  content: "github";
+}
+
+.twitter {
+  background-color: indianred;
+  color: white;
+}
+.twitter::before {
+  content: "twitter";
+}
 /*# sourceMappingURL=main.css.map */

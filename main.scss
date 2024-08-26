@@ -4,8 +4,11 @@
 // Import Pages
 @use "./sass/pages/contact";
 
-// Import Pages
+// Import Colors page
 @use "./sass/variables/colors" as *;
+
+// Import Mixins
+@use "./sass/helpers/mixin" as *;
 
 // global variable
 $alt_color: green;
@@ -236,3 +239,74 @@ $position: "right";
 /// @param {num}
 /// The number to deal with
 /// @return {int}
+
+// Mixin & Include
+
+ul.links {
+    @include list-reset;
+}
+
+.circle-100 {
+    @include circle(100px);
+    background-color: red;
+    color: white;
+}
+
+.center-circle {
+    @include circle(400px);
+    @include centering ;
+}
+
+// Loop => For
+
+@for $i from 1 through 10 {
+    .class-#{$i} {
+        font-size: #{$i + 10px};
+    }
+}
+
+$dimensions: 0;
+
+@for $i from 1 through 10 { 
+    .circle-#{100 + $dimensions} {
+        width: $dimensions + 100px;
+        height: $dimensions + 100px;
+        border-radius: 50%;
+        background-color: burlywood;
+    }
+    $dimensions: $dimensions + 100;
+}
+
+// Each & maps
+
+$themes: red, green, blue, orange;
+
+@each $theme in $themes {
+    .#{$theme}-theme {
+        .product {
+            background-color: white;
+            border-bottom: 2px solid $theme;
+            .title {
+                color: $theme;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+$socials: (
+  "facebook": blue,
+  "youtube": red,
+  "github": black,
+  "twitter": indianred,
+);
+
+@each $name, $color in $socials {
+    .#{$name} {
+        background-color: $color;
+        color: white;
+        &::before {
+            content: $name;
+        }
+    }
+}
