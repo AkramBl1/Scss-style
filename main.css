@@ -168,13 +168,13 @@
   border-right-color: red;
 }
 
-.ad-flacon-usvw261 {
+.ad-flacon-uas8wus {
   font-size: 20px;
   background-color: url("images/flacon.png");
   right: 0;
 }
 
-.ad-usvw270 {
+.ad-uas8wuw {
   font-weight: bold;
 }
 
@@ -386,5 +386,26 @@ ul.links {
 }
 .twitter::before {
   content: "twitter";
+}
+
+.one {
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+.two {
+  font-size: 15px;
+  background-color: green;
+  color: white;
+  padding: 7.5px;
+}
+
+.three {
+  font-size: 22px;
+  background-color: blue;
+  color: white;
+  padding: 11px;
 }
 /*# sourceMappingURL=main.css.map */
