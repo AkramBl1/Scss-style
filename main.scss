@@ -216,7 +216,6 @@ $direction: 'left';
 }
 
 // interpolation
-
 $company: "flacon";
 $position: "right";
 
@@ -230,6 +229,10 @@ $position: "right";
     font-weight: bold;
 }
 
-// 
-
-
+/* In css file */
+/*! In css file and compressed file */
+/* Style for #{$company}*/
+/// For documenation
+/// @param {num}
+/// The number to deal with
+/// @return {int}
