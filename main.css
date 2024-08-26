@@ -116,7 +116,7 @@
   margin-left: 9px;
 }
 
-.box, .article, .ads {
+.arrow-div, .box, .article, .ads {
   background-color: white;
   padding: 15px;
   border: 1px solid #ccc;
@@ -140,4 +140,41 @@
 .box {
   border-radius: 6px;
 }
-/*# sourceMappingURL=mian.css.map */
+
+.arrow-div {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 50px auto;
+}
+.arrow-div::before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  left: -40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-right-color: red;
+}
+
+.ad-flacon-uaa9r8w {
+  font-size: 20px;
+  background-color: url("images/flacon.png");
+  right: 0;
+}
+
+.ad-uaa9r9s {
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
