@@ -1,0 +1,143 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --main-color: red;
+}
+
+.contact {
+  padding: 20px;
+  background-color: var(--main-color);
+}
+
+.header {
+  color: green;
+}
+
+.footer {
+  background-color: black;
+}
+
+.copyright {
+  background-color: black;
+}
+
+.sidebar {
+  background-color: orange;
+  color: violet;
+}
+
+@media (max-width: 575px) {
+  .sidebar {
+    padding: 20px;
+  }
+}
+.parent {
+  font-weight: bold;
+}
+.parent .child {
+  font-size: 20px;
+}
+.parent .child .grand-child {
+  font-size: 15px;
+}
+
+.parent-one,
+.parent-two {
+  padding: 20px;
+}
+.parent-one .child,
+.parent-two .child {
+  padding: 10px;
+}
+
+.parent > .child {
+  font-size: 20px;
+}
+.parent > .test {
+  font-weight: bold;
+}
+
+.parent > .child {
+  font-size: 20px;
+}
+.parent .test {
+  font-weight: bold;
+}
+.parent + p {
+  font-size: 15px;
+}
+
+.parent > .element-one {
+  font-size: 10px;
+}
+.parent > .element-two {
+  font-size: 10px;
+}
+.parent .not-direct-child {
+  font-weight: bold;
+}
+
+.box .title {
+  font-size: 10px;
+}
+.box .description {
+  font-size: 8px;
+}
+.box.red {
+  color: red;
+}
+.box.green {
+  color: green;
+}
+.box:hover {
+  background-color: #eee;
+}
+.box:hover .title {
+  font-weight: bold;
+}
+:not(.box) {
+  font-weight: normal;
+}
+[dir=rtl] .box {
+  direction: rtl;
+}
+
+.box {
+  font-size: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 9px;
+}
+
+.box, .article, .ads {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.ads {
+  font-size: 20px;
+  color: red;
+}
+
+.article {
+  font-size: 22px;
+  color: green;
+}
+
+.page {
+  background-color: #444;
+  color: white;
+}
+
+.box {
+  border-radius: 6px;
+}
+/*# sourceMappingURL=mian.css.map */
