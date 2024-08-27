@@ -356,3 +356,26 @@ $width: 200px;
   height: half($width);
   top: calculate(100px, 200px, 50px);
 }
+
+// Practice Mixin With Content
+
+.black-overlay {
+    @include overlay(black, .5);
+}
+
+@include keyF(fade-in){
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@include keyF(go-up){
+    from {
+        bottom: o;
+    }
+    to {
+        bottom: 100px;
+    }
+}

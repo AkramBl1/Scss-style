@@ -15,3 +15,22 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin overlay($color, $opacity){
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color, $opacity);
+}
+
+@mixin keyF($anim-name) {
+    @-webkit-keyframes #{$anim-name} {
+        @content;
+    }
+    
+    @keyframes #{$anim-name} {
+        @content;
+    }
+}
