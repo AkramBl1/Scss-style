@@ -168,13 +168,13 @@
   border-right-color: red;
 }
 
-.ad-flacon-ufr55of {
+.ad-flacon-ufr5788 {
   font-size: 20px;
   background-color: url("images/flacon.png");
   right: 0;
 }
 
-.ad-ufr55on {
+.ad-ufr578e {
   font-weight: bold;
 }
 
@@ -552,6 +552,26 @@ ul.links {
   }
   to {
     bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .media {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) and (max-width: 991px) {
+  .media {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) and (max-width: 1199px) {
+  .media {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .media {
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=main.css.map */

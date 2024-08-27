@@ -379,3 +379,21 @@ $width: 200px;
         bottom: 100px;
     }
 }
+
+// Practice Create Media Queries Mixin
+// If Condition + Mixin + Content
+
+.media {
+    @include breakpoints(mobile) {
+        font-size: 15px;
+    }
+    @include breakpoints(small) {
+        font-size: 18px;
+    }
+    @include breakpoints(medium) {
+        font-size: 20px;
+    }
+    @include breakpoints(large) {
+        font-size: 22px;
+    }
+}
