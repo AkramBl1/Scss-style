@@ -168,13 +168,13 @@
   border-right-color: red;
 }
 
-.ad-flacon-uas8wus {
+.ad-flacon-ux6gbn0 {
   font-size: 20px;
   background-color: url("images/flacon.png");
   right: 0;
 }
 
-.ad-uas8wuw {
+.ad-ux6gbn2 {
   font-weight: bold;
 }
 
@@ -407,5 +407,103 @@ ul.links {
   background-color: blue;
   color: white;
   padding: 11px;
+}
+
+.width-100 {
+  width: 100px;
+  height: 50px;
+}
+
+.width-200 {
+  width: 200px;
+  height: 100px;
+}
+
+.width-300 {
+  width: 300px;
+  height: 150px;
+}
+
+.width-400 {
+  width: 400px;
+  height: 200px;
+}
+
+.width-500 {
+  width: 500px;
+  height: 250px;
+}
+
+.width-600 {
+  width: 600px;
+  height: 300px;
+}
+
+.width-700 {
+  width: 700px;
+  height: 350px;
+}
+
+.width-800 {
+  width: 800px;
+  height: 400px;
+}
+
+.width-900 {
+  width: 900px;
+  height: 450px;
+}
+
+.width-1000 {
+  width: 1000px;
+  height: 500px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
