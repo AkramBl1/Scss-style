@@ -4,11 +4,14 @@
 // Import Pages
 @use "./sass/pages/contact";
 
-// Import Colors page
+// Import variables 
 @use "./sass/variables/colors" as *;
 
 // Import Mixins
 @use "./sass/helpers/mixin" as *;
+
+// Import Functions
+@use "./sass/helpers/functions" as *;
 
 // global variable
 $alt_color: green;
@@ -342,4 +345,14 @@ $grid_cols: 12;
     .col-#{$i} {
         width: percentage($i / $grid_cols);
     }
+}
+
+// Function
+
+$width: 200px;
+
+.element {
+  width: $width;
+  height: half($width);
+  top: calculate(100px, 200px, 50px);
 }

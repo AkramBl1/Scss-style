@@ -168,13 +168,13 @@
   border-right-color: red;
 }
 
-.ad-flacon-ux6gbn0 {
+.ad-flacon-ufr53p7 {
   font-size: 20px;
   background-color: url("images/flacon.png");
   right: 0;
 }
 
-.ad-ux6gbn2 {
+.ad-ufr53pq {
   font-weight: bold;
 }
 
@@ -505,5 +505,11 @@ ul.links {
 
 .col-12 {
   width: 100%;
+}
+
+.element {
+  width: 200px;
+  height: 100px;
+  top: 350px;
 }
 /*# sourceMappingURL=main.css.map */
